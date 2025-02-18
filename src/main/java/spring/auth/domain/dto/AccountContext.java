@@ -16,6 +16,10 @@ public class AccountContext implements UserDetails {
         this.authorities = authorities;
     }
 
+    public AccountDto getAccountDto() {
+        return accountDto;
+    }
+
     @Override
     public boolean isAccountNonExpired() {
         return true;
