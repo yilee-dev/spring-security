@@ -15,7 +15,7 @@ import spring.auth.users.repository.UserRepository;
 
 import java.util.List;
 
-@Service("userDetailsService")
+@Service
 @RequiredArgsConstructor
 public class FormUserDetailsService implements UserDetailsService {
     private final UserRepository userRepository;

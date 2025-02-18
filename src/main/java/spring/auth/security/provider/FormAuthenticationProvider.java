@@ -12,7 +12,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import spring.auth.domain.dto.AccountContext;
 
-@Component("authenticationProvider")
+@Component
 @RequiredArgsConstructor
 public class FormAuthenticationProvider implements AuthenticationProvider {
 
